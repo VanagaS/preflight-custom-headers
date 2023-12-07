@@ -1,14 +1,14 @@
 # The name of your plugin as displayed in the Traefik Pilot web UI.
-displayName: Charset Converter
+displayName: Traefik Preflight Custom Headers
 
 # For now, `middleware` is the only type available.
 type: middleware
 
 # The import path of your plugin.
-import: github.com/VanagaS/charset-converter
+import: github.com/VanagaS/preflight-custom-headers
 
 # A brief description of what your plugin is doing.
-summary: Traefik Proxy Charset Converter Plugin
+summary: The Traefik Preflight Custom Headers allows to respond with custom headers for preflight requests
 
 # Medias associated to the plugin (optional)
 # iconPath: foo/icon.png
